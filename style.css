@@ -1,12 +1,12 @@
 
-body{
-  background-color: rgb(28, 15, 51);
-}
-h1{
+
+.htag{
   color: azure;
 }
+
 .nav{
   
+  height: 90px;
   color: #f8f4f4;
   background-color: rgb(55, 44, 73);
   padding: 2%;
@@ -17,8 +17,9 @@ h4{
   color: #6636c0;
 }
 .logo{
-  height: 5%;
-  width: 5%;
+  height: 16%;
+  width: 20%;
+  margin: 2%;
 }
 .step{
   display: flex;
@@ -26,9 +27,43 @@ h4{
 }
 .step1{
   display: flex;
+  
+}
+.step2{
+  height: 50px;
+  width:50px;
 }
 
-.step2{
+.step3{
   display: flex;
 }
+.fist_btn{
+  color: #fcfcfc;
+  margin: 2%;
+  background-color: rgb(55, 44, 73);
+  height: 50px;
+  width:150px;
+  border-radius: 10px;
+  border-color: #f8f4f4;
+
+}
+.secound{
+  margin: 2%;
+  background-color: #8f5af1;
+  height: 50px;
+  width: 150px;
+  border-radius:  10px;
+}
+.font{
+  
+  background-color: rgb(55, 44, 73);
+  margin: 0%;
+  display: flex;
+}
+.product{
+  margin-bottom: 20%;
+  margin: 2%;
+  padding: 2%;
+}
+
 
