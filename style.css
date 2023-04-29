@@ -65,5 +65,12 @@ h4{
   margin: 2%;
   padding: 2%;
 }
-
+.row{
+  margin: 2%;
+  padding: 2%;
+   
+}
+.card-body{
+  background-color: rgb(55, 44, 73);
+}
 
