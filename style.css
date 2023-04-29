@@ -6,9 +6,29 @@ h1{
   color: azure;
 }
 .nav{
-  background-color: rgb(70, 67, 67);
+  
+  color: #f8f4f4;
+  background-color: rgb(55, 44, 73);
+  padding: 2%;
+  
+
 }
 h4{
   color: #6636c0;
+}
+.logo{
+  height: 5%;
+  width: 5%;
+}
+.step{
+  display: flex;
+  
+}
+.step1{
+  display: flex;
+}
+
+.step2{
+  display: flex;
 }
 
