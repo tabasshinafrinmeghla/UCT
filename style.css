@@ -8,7 +8,7 @@
   
   height: 90px;
   color: #f8f4f4;
-  background-color: rgb(55, 44, 73);
+  background-color: rgb(18, 13, 27);
   padding: 2%;
   
 
@@ -17,12 +17,20 @@ h4{
   color: #6636c0;
 }
 .logo{
-  height: 16%;
+  height: 50%;
   width: 20%;
   margin: 2%;
+
+  
 }
 .step{
+  margin: 0%;
+  padding: 0%;
+  height: 100px;
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+  
   
 }
 .step1{
@@ -36,11 +44,12 @@ h4{
 
 .step3{
   display: flex;
+  justify-content: space-between;
 }
 .fist_btn{
   color: #fcfcfc;
   margin: 2%;
-  background-color: rgb(55, 44, 73);
+  background-color: rgb(18, 13, 27);
   height: 50px;
   width:150px;
   border-radius: 10px;
@@ -49,18 +58,25 @@ h4{
 }
 .secound{
   margin: 2%;
-  background-color: #8f5af1;
+  color: #ffffff;
+  background-color: rgb(71, 43, 231);
   height: 50px;
   width: 150px;
   border-radius:  10px;
 }
 .font{
-  
-  background-color: rgb(55, 44, 73);
   margin: 0%;
+  padding: 0%;
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+
+  background-color: rgb(18, 13, 27);
+  
+
 }
 .product{
+  
   margin-bottom: 20%;
   margin: 2%;
   padding: 2%;
@@ -71,6 +87,23 @@ h4{
    
 }
 .card-body{
-  background-color: rgb(55, 44, 73);
+  background-color: rgb(18, 13, 27);
+  padding: 0;
 }
+.card-one{
+  display: flex;
 
+  
+
+
+}
+.row{
+  margin: 10%;
+}
+.containers{
+  /* background-color: #f8f4f4; */
+  width: 70%;
+}
+.product{
+  width: 30%;
+}
