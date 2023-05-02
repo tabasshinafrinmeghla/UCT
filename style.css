@@ -26,6 +26,16 @@ h1{
   width: 100%;
   margin-bottom: 5%;
 }
+h4{
+  margin-top: 5%;
+  margin-right: 4%;
+}
+h3{
+  margin: 3%;
+}
+p{
+  margin: 3%;
+}
 .tech{
   color: #6636c0;
 }
@@ -40,12 +50,13 @@ font-weight: bold;
   color: #6636c0;
 }
 .logo{
-  
-  height: 50px;
-  width: 50px;
-   
-
-  
+  height: 42px;
+  width: 190px;
+}
+.frame{
+  height: 17px;
+  width: 34px;
+  margin-top: 12px;
 }
 .step{
   margin: 0%;
@@ -106,16 +117,21 @@ font-weight: bold;
   
 
 }
+.span_tag{
+  color: #6636c0;
+}
 .product{
   
   margin-bottom: 20%;
   margin: 2%;
   padding: 2%;
 }
-.row{
+
+.card-img-top{
+  height: 42px;
+  width: 42px;
   margin: 2%;
-  padding: 2%;
-   
+  border-radius: 5px;
 }
 .card-body{
   background-color: rgb(18, 13, 27);
@@ -126,10 +142,12 @@ font-weight: bold;
 }
 .row{
   margin: 10%;
-  background-color: rgb(85, 82, 90);
+  background-color: rgb(80, 62, 116);
+  border-color: #f8f4f4;
   border-radius: 10px;
-  border-color: #6636c0;
+  
 }
+
 
 
 .containers{
@@ -145,11 +163,13 @@ font-weight: bold;
   padding: 0%;
   width: 100%;
   
+  
 }
 .card_icon{
   color: #fcfdfd;
   display: flex;
   justify-content: space-between;
+  
 
 }
 .card_icon:hover{
