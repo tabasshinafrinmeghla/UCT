@@ -4,6 +4,9 @@ font-family: sans-serif;
 padding: 0%;
 margin: 0%;
 background-color: rgb(18, 13, 27);
+
+
+
 }
 
 
@@ -17,7 +20,7 @@ background-color: rgb(18, 13, 27);
   height: 90px;
   color: #f8f4f4;
   background-color: rgb(18, 13, 27);
-  padding: 2%;
+  padding: 1%;
   
 
 }
@@ -26,11 +29,19 @@ h1{
   color: #6636c0;
   width: 100%;
   margin-bottom: 5%;
+  
+}
+.hedding{
+ color: #f8f4f4;
+ font-size: 30px;
+
 }
 h4{
-  margin-top: 5%;
+  margin-top: 10%;
   margin-right: 4%;
 }
+
+
 h3{
   margin: 3%;
 }
@@ -121,11 +132,22 @@ font-weight: bold;
 .span_tag{
   color: #6636c0;
 }
-.product{
+
+.background_shadow_left{
+  position: absolute;
+  width: 233px;
+  height: 233px;
+  left: 35%;
+  margin-top: 200px;
+  z-index: 0;
   
-  margin-bottom: 20%;
-  margin: 2%;
-  padding: 2%;
+}
+.background_shadow_right{
+  position: absolute;
+  width: 233px;
+  height: 233px;
+  left: 65%;
+  margin-top: 120px;
 }
 
 .card-img-top{
@@ -140,6 +162,8 @@ font-weight: bold;
 }
 .card-one{
   display: flex;
+  padding-right: 20%;
+  
 }
 .row{
   margin: 10%;
@@ -148,7 +172,10 @@ font-weight: bold;
   border-radius: 10px;
   
 }
-
+.icon_card{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 .containers{
@@ -156,8 +183,12 @@ font-weight: bold;
   width: 70%;
 }
 .product{
-  width: 30%;
+  width: 20%;
   margin-top: 100px;
+  margin-bottom: 20%;
+  margin: 0%;
+  
+  padding-top:4% ;
 }
 .card{
   margin: 0%;
@@ -170,6 +201,9 @@ font-weight: bold;
   color: #fcfdfd;
   display: flex;
   justify-content: space-between;
+  border-radius: 7PX;
+  padding: 2PX;
+  margin: 5PX;
   
 
 }
@@ -178,52 +212,57 @@ font-weight: bold;
 }
 .col_one{
   margin-top: 50px;
+  
+}
+.scroll_bar_1{
+  height: 386px;
+  width: 6px;
+  box-sizing: border-box;
+  top: 150px;
+  position: absolute;
+  background: #19152D;
+  border-radius: 30px;
+  margin-left: 1%;
+}
+.scroll_bar_2{
+  width: 8px;
+  height: 78.75px;
+  background: linear-gradient(180deg, #A357FB 0%, #6C38F8 100%);
+  border-radius: 30px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .scroll_bar{
-  margin-left: 3%;
-  margin-right: 3%;
-}
-.scrollable-content {
-  width: 33px;
-  padding: 0%;
-  height: 300px;
-  margin: 0%;
-  overflow-y: scroll;
-  scrollbar-color: white red;
   
+  margin-left: 4%;
+  margin-right: 3%;
 }
 
 .icon{
   display: grid;
-  
 }
 
 .icon_1{
-  margin-top: 25.84px;
-  margin-left: 40%;
-  height: 25.84px;
-  width: 26px;
+  margin-top: 450px;
+  height: 20.84px;
+  width: 20px;
   
   
 }
 
 .icon_2{
-  margin-top: 25.84px;
-  margin-left: 40%;
-  height: 25.84px;
-  width: 26px;
+  margin-top:20.84px;
+  height: 20.84px;
+  width: 20px;
 }
 .icon_3{
-  margin-top: 25.84px;
-  margin-left: 40%;
-  height: 25.84px;
-  width: 26px;
+  margin-top: 20.84px;
+  height: 20.84px;
+  width: 20px;
 }
 .icon_4{
-  margin-top: 25.84px;
-  margin-left: 40%;
-  height: 25.84px;
-  width: 26px;
+  margin-top: 20.84px;
+  height: 20.84px;
+  width: 20px;
 }
 
 
