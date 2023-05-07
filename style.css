@@ -4,13 +4,7 @@ font-family: sans-serif;
 padding: 0%;
 margin: 0%;
 background-color: rgb(18, 13, 27);
-
-
-
 }
-
-
-
 .htag{
   color: azure;
 }
@@ -19,29 +13,23 @@ background-color: rgb(18, 13, 27);
   
   height: 90px;
   color: #f8f4f4;
-  background-color: rgb(18, 13, 27);
+  /* background-color: rgb(18, 13, 27); */
   padding: 1%;
-  
-
 }
 h1{
   margin-top: 5%;
   color: #6636c0;
   width: 100%;
-  margin-bottom: 5%;
-  
+  margin-bottom: 5%;  
 }
 .hedding{
  color: #f8f4f4;
  font-size: 30px;
-
 }
 h4{
   margin-top: 10%;
   margin-right: 4%;
 }
-
-
 h3{
   margin: 3%;
 }
@@ -78,14 +66,13 @@ font-weight: bold;
   display: flex;
   justify-content: space-around;
   
-  
 }
 .step1{
   display: flex;
   width: 30%;
   
 }
-.step2{
+/* .step2{
   color: #fdffff;
   height: 50px;
   width:100px;
@@ -94,7 +81,7 @@ font-weight: bold;
   font-size: 40px;
   background-color: rgb(18, 13, 27);
   
-}
+} */
 
 .step3{
   display: flex;
@@ -103,7 +90,7 @@ font-weight: bold;
 .fist_btn{
   color: #fcfcfc;
   margin: 2%;
-  background-color: rgb(18, 13, 27);
+  /* background-color: rgb(18, 13, 27); */
   height: 50px;
   width:150px;
   border-radius: 10px;
@@ -124,10 +111,6 @@ font-weight: bold;
   width: 100%;
   display: flex;
   justify-content: space-around;
-
-  background-color: rgb(18, 13, 27);
-  
-
 }
 .span_tag{
   color: #6636c0;
@@ -139,7 +122,7 @@ font-weight: bold;
   height: 233px;
   left: 35%;
   margin-top: 200px;
-  z-index: 0;
+  z-index: -1;
   
 }
 .background_shadow_right{
@@ -148,6 +131,7 @@ font-weight: bold;
   height: 233px;
   left: 65%;
   margin-top: 120px;
+  z-index: -1;
 }
 
 .card-img-top{
@@ -157,7 +141,7 @@ font-weight: bold;
   border-radius: 5px;
 }
 .card-body{
-  background-color: rgb(18, 13, 27);
+  
   padding: 0;
 }
 .card-one{
@@ -167,7 +151,7 @@ font-weight: bold;
 }
 .row{
   margin: 10%;
-  background-color: rgb(18, 13, 27);
+  
   border: 2px solid #6636c0;
   border-radius: 10px;
   
@@ -212,6 +196,7 @@ font-weight: bold;
 }
 .col_one{
   margin-top: 50px;
+  
   
 }
 .scroll_bar_1{
