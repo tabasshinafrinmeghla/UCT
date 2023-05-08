@@ -20,7 +20,8 @@ h1{
   margin-top: 5%;
   color: #6636c0;
   width: 100%;
-  margin-bottom: 5%;  
+  margin-bottom: 5%;
+  padding: 2%;  
 }
 .hedding{
  color: #f8f4f4;
@@ -95,6 +96,7 @@ font-weight: bold;
   width:150px;
   border-radius: 10px;
   border-color: #f8f4f4;
+  
 
 }
 .secound{
@@ -104,6 +106,7 @@ font-weight: bold;
   height: 50px;
   width: 150px;
   border-radius:  10px;
+  border: none;
 }
 .font{
   margin: 0%;
@@ -295,6 +298,10 @@ font-weight: bold;
 }
 .cms_icon{
   color: #f8f4f4;
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
 }
 
 
