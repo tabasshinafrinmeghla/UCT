@@ -1,5 +1,5 @@
 
-*{
+body{
 font-family: sans-serif;
 padding: 0%;
 margin: 0%;
@@ -90,7 +90,7 @@ font-weight: bold;
 .fist_btn{
   color: #fcfcfc;
   margin: 2%;
-  /* background-color: rgb(18, 13, 27); */
+  background-color: rgb(18, 13, 27); 
   height: 50px;
   width:150px;
   border-radius: 10px;
@@ -118,20 +118,20 @@ font-weight: bold;
 
 .background_shadow_left{
   position: absolute;
-  width: 233px;
-  height: 233px;
-  left: 35%;
-  margin-top: 200px;
-  z-index: -1;
+  width: 533px;
+  height: 533px;
+  left: 30%;
+  margin-top: 0%;
+  z-index: 1;
   
 }
 .background_shadow_right{
   position: absolute;
-  width: 233px;
-  height: 233px;
-  left: 65%;
-  margin-top: 120px;
-  z-index: -1;
+  width: 533px;
+  height: 533px;
+  left: 57%;
+  margin-top: 0%;
+  z-index: 1;
 }
 
 .card-img-top{
@@ -147,6 +147,7 @@ font-weight: bold;
 .card-one{
   display: flex;
   padding-right: 20%;
+  justify-content:space-around ;
   
 }
 .row{
@@ -249,7 +250,51 @@ font-weight: bold;
   height: 20.84px;
   width: 20px;
 }
+.cms{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  padding: 2px;
+  background-color: aqua;
+  border-radius: 15px;
+  
+}
 
+.cms{
+  display: flex;
+  justify-content: space-between;
+}
+.card_box{
+  padding: 5px;
+  margin-top: 10%;
+  border-radius: 15px;
+  border-width: 1px 6px 6px 1px;
+  border-style: solid;
+  border-color: #A357FB;
+  border-radius: 10px;
+  height: 200px;
+  width: 389px;
+}
+.trade_logo{
+  width: 50px;
+  height: 50px;
 
+  border: 1px solid #2F2753;
+  border-radius: 10px;
+}
+.h_tag{
+  padding: 0%;
+  margin: 0%;
+  color: #f8f4f4;
+}
+
+.cms_hadeing{
+  color: #f8f4f4;
+ 
+}
+.cms_icon{
+  color: #f8f4f4;
+}
 
 
