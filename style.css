@@ -153,7 +153,7 @@ p{
   width: 40%;
   height: 60%;
   left: 32%;
-  margin-top: 15%;
+  margin-top: 10%;
   z-index: 1;
   
 }
@@ -162,7 +162,7 @@ p{
   width: 40%;
   height: 60%;
   left: 59%;
-  margin-top: 12%;
+  margin-top: 7%;
   z-index: 1;
 }
 
@@ -212,8 +212,6 @@ p{
   margin: 0%;
   padding: 0%;
   width: 100%;
-  
-   
 }
 .card_icon{
   color: #fcfdfd;
@@ -222,7 +220,6 @@ p{
   border-radius: 7PX;
   padding: 2PX;
   margin: 5PX;
-  
 
 }
 .card_icon:hover{
@@ -285,33 +282,33 @@ p{
   margin-top: 100px;
   display: grid;
   width: 50px;
-  margin-left: 4px;
+  
   
 }
 
 .icon_1{
   padding-top: 0%;
-  margin-top: 300px;
-  height: 20.84px;
-  width: 20px;
+  margin-top: 320px;
+  height: 25.84px;
+  width: 25px;
   
   
 }
 
 .icon_2{
   margin-top:20.84px;
-  height: 20.84px;
-  width: 20px;
+  height: 25.84px;
+  width: 25px;
 }
 .icon_3{
   margin-top: 20.84px;
-  height: 20.84px;
-  width: 20px;
+  height: 25.84px;
+  width: 25px;
 }
 .icon_4{
   margin-top: 20.84px;
-  height: 20.84px;
-  width: 20px;
+  height: 25.84px;
+  width: 25px;
   
 }
 .cms{
@@ -332,7 +329,7 @@ p{
   border-style: solid;
   border-color: #A357FB;
   border-radius: 10px;
-  height: 250px;
+  height: 200px;
   width: 100%;
 }
 .trade_logo{
@@ -405,7 +402,41 @@ p{
  .step3{
   margin: 2%;
  }
+ .background_shadow_left{
+  
+  width: 40%;
+  height: 60%;
+  margin-top: 45%;
+  z-index: 1;
   
 }
+.background_shadow_right{
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  left: 59%;
+  margin-top: 57%;
+  z-index: 1;
+}
+.card-one{
+  padding-right: 40%;
+  justify-content:space-around ;
+  height: 100%;
+}
+.col_two{
+  padding-left: 3%;
+}
+.card_box{
+  padding: 5px;
+  margin-top: 10%;
+  border-radius: 15px;
+  border-width: 1px 6px 6px 1px;
+  border-style: solid;
+  border-color: #A357FB;
+  border-radius: 10px;
+  height: 260px;
+  width: 100%;
+}
 
+}
 
