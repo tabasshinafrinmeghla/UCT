@@ -365,5 +365,47 @@ p{
   display: flex;
   
 }
+@media screen and (max-width: 1250px){
+  .btn{
+    /* flex-direction: column; */
+    display: grid;
+    
+   
+  }
+  .btntwo{
+    margin: 3%;
+    
+  }
+  .btnone{
+    margin: 3%;
+  }
+  .frame{
+    display: none;
+  }
+  .font{
+    margin-top: 20%;
+    text-align: center;
+    display: grid;
+    margin-left: 40%;
+  }
+  .product{
+    width: 40%;
+  }
+  .containers{
+    width: 100%;
+    margin: 0%;
+  }
+  .col_one{
+    margin-top: 90px; 
+    width: 70%;
+    padding-bottom: 90%;
+    margin-left: 0%;
+  }
+  
+ .step3{
+  margin: 2%;
+ }
+  
+}
 
 
