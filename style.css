@@ -406,7 +406,8 @@ p{
   }
   
  .step3{
-  margin: 2%;
+  margin: 0%;
+  padding-right: 60px;
  }
  .background_shadow_left{
   
@@ -446,6 +447,7 @@ p{
 .scroll_bar{
   margin-top: 0%;
   padding-top: 0%;
+  padding-bottom: 5%;
   position: fixed;
   left: 0;
   right: 0;
