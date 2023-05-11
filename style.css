@@ -105,30 +105,32 @@ p{
   width: 168px;
   height: 58px;
   border-radius: 10px;
-  border: 2px solid white;
   border-color: #f8f4f4;
+  cursor: pointer;
   
 
 }
 .secound{
   margin: 2%;
-  
   color: #ffffff;
   background-color: rgb(71, 43, 231);
+  border-color: #6C38F8;
   width: 168px;
   height: 58px;
   border-radius:  10px;
-  border: none;
+  cursor: pointer;
+
 }
 
 .btntwo{
   width: 168px;
   height: 58px;
-
   background-color: rgb(71, 43, 231);
+  border-color: #6C38F8;
   border-radius:  10px;
-  border: none;
+  
   color: #f8f4f4;
+  cursor: pointer;
 }
 .btnone{
   width: 168px;
@@ -137,16 +139,19 @@ p{
   color: #f8f4f4;
   background-color: rgb(18, 13, 27); 
   border-radius: 10px;
-  border: 2px solid white ;
+ 
+  border-color: #f8f4f4;
   margin-left: 10%;
+  cursor: pointer;
   
 }
-.font{
+.container{
   margin: 8%;
   padding: 0%;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  
 }
 .span_tag{
   color: #6636c0;
@@ -158,7 +163,7 @@ p{
   height: 60%;
   left: 32%;
   margin-top: 10%;
-  z-index: 1;
+  z-index: -1;
   
 }
 .background_shadow_right{
@@ -167,7 +172,7 @@ p{
   height: 60%;
   left: 59%;
   margin-top: 7%;
-  z-index: 1;
+  z-index: -1;
 }
 
 .card-img-top{
@@ -203,13 +208,12 @@ p{
 .containers{
   /* background-color: #f8f4f4; */
   width: 70%;
+  
 }
 .product{
   width: 20%;
   margin-top: 10px;
   margin-bottom: 20%;
-  margin: 0%;
-  
   padding-top:10% ;
 }
 .card{
@@ -249,7 +253,6 @@ p{
   height: 386px;
   width: 6px;
   box-sizing: border-box;
-  
   position: absolute;
   background: #19152D;
   border-radius: 30px;
@@ -384,8 +387,10 @@ p{
   }
   .frame{
     display: none;
+   
   }
-  .font{
+
+  .container{
     margin-top: 20%;
     text-align: center;
     display: grid;
