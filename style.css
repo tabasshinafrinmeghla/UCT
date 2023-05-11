@@ -99,6 +99,7 @@ p{
   justify-content: space-between;
 }
 .fist_btn{
+  transition-duration: 0.4s;
   color: #fcfcfc;
   margin: 2%;
   margin-left: 10%;
@@ -108,22 +109,33 @@ p{
   border-radius: 10px;
   border-color: #f8f4f4;
   cursor: pointer;
+}
+.fist_btn:hover{
   
-
+  background-color:rgb(71, 43, 231);
+  color: white;
 }
 .secound{
+  transition-duration: 0.4s;
+  color: #fcfcfc;
   margin: 2%;
-  color: #ffffff;
+  margin-left: 10%;
   background-color: rgb(71, 43, 231);
   border-color: #6C38F8;
   width: 168px;
   height: 58px;
-  border-radius:  10px;
+  border-radius: 10px;
+  
   cursor: pointer;
 
 }
+.secound:hover{
+  background-color:rgb(18, 13, 27); 
+  color: white;
+}
 
 .btntwo{
+  transition-duration: 0.4s;
   width: 168px;
   height: 58px;
   background-color: rgb(71, 43, 231);
@@ -133,7 +145,14 @@ p{
   color: #f8f4f4;
   cursor: pointer;
 }
+.btntwo:hover{
+  background-color:rgb(18, 13, 27);
+  color: #fcfcfc;
+
+}
+
 .btnone{
+  transition-duration: 0.4s;
   width: 168px;
   height: 58px;
 
@@ -145,6 +164,10 @@ p{
   margin-left: 10%;
   cursor: pointer;
   
+}
+.btnone:hover{
+  background-color:rgb(71, 43, 231);
+  color: white;
 }
 .container{
   margin: 8%;
